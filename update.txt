@@ -1,0 +1,5 @@
+4.0.0 | 26.1 - 26.3
+- Optional bed indicator when you can sleep, needs the resource pack (/trigger dc_bed_toggle)
+- Settings menu in the pause screen and via /trigger dc_menu
+- Fixed the counter flickering: each player now gets exactly one actionbar per tick
+- Added /function daycounter:uninstall

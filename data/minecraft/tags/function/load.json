@@ -1,0 +1,8 @@
+{
+    "values": [
+        "daycounter:load",
+        "daycounter:bed_load",
+        "daycounter:menu_load",
+        "daycounter:info_load"
+    ]
+}

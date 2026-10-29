@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "Avie29"
+        }
+      }
+    },
+    "title": {
+      "text": "Avies Datapacks",
+      "color": "#d4529e"
+    },
+    "description": {
+      "text": "Download my packs on Curseforge and Modrinth!",
+      "color": "gold"
+    },
+    "background": "minecraft:block/black_concrete",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

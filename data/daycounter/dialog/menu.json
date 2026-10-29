@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Day Counter",
+    "color": "gold"
+  },
+  "can_close_with_escape": true,
+  "columns": 1,
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Personal settings. They only affect you.",
+        "color": "gray"
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+        "text": "Show / hide the counter"
+      },
+      "width": 250,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger dc_toggle"
+      }
+    },
+    {
+      "label": {
+        "text": "Bed indicator on / off"
+      },
+      "tooltip": {
+        "text": "Needs the Day Counter resource pack",
+        "color": "red"
+      },
+      "width": 250,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger dc_bed_toggle"
+      }
+    }
+  ],
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 200
+  }
+}

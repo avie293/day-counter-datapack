@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "pack_format": 101,
+    "description": [
+      {
+        "text": "by Avie29 - 26.x\n",
+        "color": "#6d24db"
+      },
+      {
+        "text": "curseforge.com/members/avie29",
+        "color": "gold"
+      }
+    ],
+    "min_format": 101,
+    "max_format": 200
+  }
+}
