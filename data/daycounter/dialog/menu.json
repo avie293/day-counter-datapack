@@ -26,20 +26,6 @@
         "type": "minecraft:run_command",
         "command": "trigger dc_toggle"
       }
-    },
-    {
-      "label": {
-        "text": "Bed indicator on / off"
-      },
-      "tooltip": {
-        "text": "Needs the Day Counter resource pack",
-        "color": "red"
-      },
-      "width": 250,
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "trigger dc_bed_toggle"
-      }
     }
   ],
   "exit_action": {
